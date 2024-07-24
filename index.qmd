@@ -45,4 +45,6 @@ Hi, I’m Mason Reece, and I’m a PhD student in MIT’s Political Science depa
 
 I graduated Phi Beta Kappa from Rice University with a BA in Political Science (Honors) and Social Policy Analysis, where I earned the Sallyport Award and the Douglas S. Harlan Award in Political Science for my civic engagement work at Rice and in greater Houston. You can find more out about me by checking out my research [here](/research), data & software [here](/data), or my full CV [here](files/cv.pdf).
 
+Temporary update.
+
 :::
