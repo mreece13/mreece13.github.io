@@ -41,10 +41,10 @@ resources:
 
 ::: {#hero-heading}
 
+Website is still WIP.
+
 Hi, I’m Mason Reece, and I’m a PhD student in MIT’s Political Science department focusing on American Politics and Models & Methods. I am interested in better understanding how election systems impact voter participation and confidence in our democratic system so that this knowledge can inform advocacy and directly improve electoral administration. To bring a practical lens to my research, I have served as presiding judge at a Houston polling location and organized a youth voters conference. In my free time, I love riding my bike, hiking, and tasting food around the country.
 
 I graduated Phi Beta Kappa from Rice University with a BA in Political Science (Honors) and Social Policy Analysis, where I earned the Sallyport Award and the Douglas S. Harlan Award in Political Science for my civic engagement work at Rice and in greater Houston. You can find more out about me by checking out my research [here](/research), data & software [here](/data), or my full CV [here](files/cv.pdf).
-
-Temporary update.
 
 :::
