@@ -78,7 +78,9 @@ for _, data in yaml_data.items():
 #| label: "published-year"
 #| id: "published-year"
 #| output: asis
-display(HTML("<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["pubs"]) + "</ul>"))
+
+for p in pub_strs["pubs"]:
+  display(HTML("<ul class='list-group list-group-flush'>" + '\n' + p + "</ul>"))
 
 ```
 
@@ -88,6 +90,8 @@ display(HTML("<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["pu
 #| label: "not-published-year"
 #| id: "not-published-year"
 #| output: asis
-display(HTML("<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["wps"]) + "</ul>"))
+
+for p in pub_strs["wps"]:
+  display(HTML("<ul class='list-group list-group-flush'>" + '\n' + p + "</ul>"))
 
 ```
