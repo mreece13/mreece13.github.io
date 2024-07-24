@@ -1,0 +1,16 @@
+{
+  "hash": "88882384b0b2c38d5fef73f89edabcf9",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Research\nformat:\n  html:\n    page-layout: full\ntitle-block-banner: false\nkeep-md: true\nsection-divs: false\ntoc-location: left\ntoc: true\necho: false\n---\n\n\n\n## Published\n\n```{=html}\n<ul class='list-group list-group-flush'></ul>\n```\n\n\n## Working Papers\n\n```{=html}\n<ul class='list-group list-group-flush'><li class='list-group-item'><strong>Mason Reece</strong>, Joseph R. Loffredo, Alejandro Flores, Samuel Baltz, and Charles H. Stewart III. (2024) \"Hidden Partisanship in American Elections.\"<br><a class=\"btn btn-outline-dark btn-sm\", href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4721012\" target=\"_blank\" rel=\"noopener noreferrer\">\n        <i class=\"bi bi-file-earmark-pdf\" role='img' aria-label='Most Recent Draft'></i>\n        Most Recent Draft\n    </a></li></ul>\n```\n\n\n",
+    "supporting": [
+      "research_files/figure-html"
+    ],
+    "filters": [],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js\" integrity=\"sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==\" crossorigin=\"anonymous\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js\" integrity=\"sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==\" crossorigin=\"anonymous\" data-relocate-top=\"true\"></script>\n<script type=\"application/javascript\">define('jquery', [],function() {return window.jQuery;})</script>\n"
+      ]
+    }
+  }
+}

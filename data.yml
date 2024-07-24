@@ -1,0 +1,23 @@
+cvrs:
+  title: "Cast vote records: A database of ballots from the 2020 U.S. Election"
+  authors:
+    - Shiro Kuriwaki
+    - me
+    - Samuel Baltz
+    - Aleksandra Conevska
+    - Joseph R. Loffredo
+    - Can E. Mutlu
+    - Taran Samarth
+    - Kevin E. Acevedo Jetter
+    - Zachary Djanogly Garai
+    - Kate Murray
+    - Shigeo Hirano
+    - Jeffrey B. Lewis
+    - James M. Snyder Jr.
+    - Charles H. Stewart III
+  published_url: 
+  github: https://github.com/kuriwaki/cvr_harvard-mit_scripts
+  venue: 
+  year: 2024
+  preprint: files/cvr_data_paper.pdf
+  dataverse: https://dataverse.harvard.edu/privateurl.xhtml?token=798c7f1e-8a11-462a-b822-79b162f17b4b

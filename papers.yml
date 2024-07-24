@@ -1,0 +1,30 @@
+hidden_partisanship:
+  title: Hidden Partisanship in American Elections
+  authors:
+    - me
+    - Joseph R. Loffredo
+    - Alejandro Flores
+    - Samuel Baltz
+    - Charles H. Stewart III
+  published_url: 
+  venue: 
+  year: 2024
+  preprint: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4721012
+cvr_ideals:
+  title: "The Democratic and the Republican Way to Clean the Street: Estimating Partisan Voting in Nonpartisan Offices Using Cast Vote Records"
+  authors:
+    - me
+  published_url: 
+  venue: 
+  year: 2024
+  preprint: files/cvr_ideals.pdf
+  github: https://github.com/mreece13/cvr-ideals
+judicial_partisanship:
+  title: "Judges as Candidates: Responsiveness to Judicial Selection Methods"
+  authors:
+    - me
+  published_url: 
+  venue: 
+  year: 2024
+  preprint: files/judicial_partisanship.pdf
+  github: https://github.com/mreece13/judicial-partisanship
