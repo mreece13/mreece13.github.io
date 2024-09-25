@@ -15,9 +15,9 @@ cvrs:
     - Jeffrey B. Lewis
     - James M. Snyder Jr.
     - Charles H. Stewart III
-  published_url: 
+  published_url:
   github: https://github.com/kuriwaki/cvr_harvard-mit_scripts
-  venue: 
+  venue:
   year: 2024
   preprint: files/cvr_data_paper.pdf
-  dataverse: https://dataverse.harvard.edu/privateurl.xhtml?token=798c7f1e-8a11-462a-b822-79b162f17b4b
+  dataverse: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQQ3KV&faces-redirect=true
