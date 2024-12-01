@@ -55,7 +55,7 @@ def button(url, str, icon):
         {str}
     </a>"""
 
-yaml_data = yaml.safe_load(open("papers.yml"))
+yaml_data = yaml.safe_load(open("assets/papers.yml"))
 pub_strs = {"pubs": [], "wps": [], "data": []}
 for _, data in yaml_data.items():
     type_str = data["type"]
