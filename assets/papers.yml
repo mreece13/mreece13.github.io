@@ -55,3 +55,15 @@ cvrs:
   year: 2024
   preprint: 
   dataverse: https://doi.org/10.7910/DVN/PQQ3KV
+postal_voting:
+  type: paper
+  title: "Postal Voting in the 2020 Election"
+  authors:
+    - Lonna Atkeson
+    - MV Hood III
+    - Colin Jones
+    - me
+    - Robert M Stein
+  published_url: https://electioncenter.org/files-journal/documents/JEARP-volume01-issue-01-postal-voting-in-the-2020-election.pdf
+  venue: Journal of Election Administration, Research and Practice
+  year: 2022
