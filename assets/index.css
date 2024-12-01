@@ -53,8 +53,8 @@
 }
 
 h2 {
-  padding-bottom: 0rem;
-  margin-bottom: 0.25rem;
+  padding-bottom: 0rem !important;
+  margin-bottom: 0.25rem !important;
 }
 
 /* mobile query up for screens up to ~992px wide */
