@@ -102,30 +102,21 @@ for _, data in yaml_data.items():
 ```
 
 ## Selected Working Papers
-
 ```{python}
-#| label: "not-published-year"
-#| id: "not-published-year"
 #| output: asis
 display(HTML("<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["wps"]) + "</ul>"))
 
 ```
 
 ## Publications
-
 ```{python}
-#| label: "published-year"
-#| id: "published-year"
 #| output: asis
 display(HTML("<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["pubs"]) + "</ul>"))
 
 ```
 
 ## Datasets
-
 ```{python}
-#| label: "data-year"
-#| id: "data-year"
 #| output: asis
 display(HTML("<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["data"]) + "</ul>"))
 
