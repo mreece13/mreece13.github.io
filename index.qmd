@@ -1,12 +1,12 @@
 ---
 title: "Mason Reece"
 pagetitle: "Mason Reece"
-subtitle: "PhD Student in Political Science at the Massachusetts Institute of Technology"
+subtitle: <b>PhD Candidate in Political Science at MIT</b> <br></br> Hi, I’m Mason Reece, and I’m a PhD candidate in MIT’s Political Science department focusing on American Politics and Models & Methods. I am interested in better understanding how election systems impact voter participation and confidence in our democratic system so that this knowledge can inform advocacy and directly improve electoral administration. To bring a practical lens to my research, I have served as the lead poll worker in Houston and Cambridge and organized a youth voters conference. In my free time, I love riding my bike, hiking, and trying food from around the world. You can find my CV [here](files/cv.pdf).
 image: assets/mason.jpeg
 
 about:
   template: trestles
-  image-width: 14em
+  image-width: 18em
   id: hero-heading
   links:
     - icon: github
@@ -34,11 +34,100 @@ resources:
   - assets/index.css
 ---
 
-<br><br>
-
-
 ::: {#hero-heading}
 
-Hi, I’m Mason Reece, and I’m a PhD student in MIT’s Political Science department focusing on American Politics and Models & Methods. I am interested in better understanding how election systems impact voter participation and confidence in our democratic system so that this knowledge can inform advocacy and directly improve electoral administration. To bring a practical lens to my research, I have served as the lead poll worker in Houston and Cambridge and organized a youth voters conference. In my free time, I love riding my bike, hiking, and trying food from around the world.
+```{python}
+import yaml
+from IPython.display import display, Markdown, HTML
+
+def readable_list(_s):
+  if len(_s) < 3:
+    return ' and '.join(map(str, _s))
+  *a, b = _s
+  return f"{', '.join(map(str, a))}, and {b}"
+
+def button(url, str, icon):
+    icon_base = icon[:2]
+    return f"""<a class="btn btn-outline-dark btn-sm", href="{url}" target="_blank" rel="noopener noreferrer">
+        <i class="{icon_base} {icon}" role='img' aria-label='{str}'></i>
+        {str}
+    </a>"""
+
+yaml_data = yaml.safe_load(open("papers.yml"))
+pub_strs = {"pubs": [], "wps": [], "data": []}
+for _, data in yaml_data.items():
+    type_str = data["type"]
+    title_str = data["title"]
+    authors = data.get("authors", ["me"])
+    authors = [aut if aut != "me" else "<strong>Mason Reece</strong>" for aut in authors]
+    author_str = readable_list(authors)
+    year_str = data["year"]
+
+    pub_url = data.get("published_url")
+
+    buttons = []
+    preprint = data.get("preprint")
+    if preprint is not None:
+        buttons.append(button(preprint, "Most Recent Draft", "bi-file-earmark-pdf"))
+
+    if pub_url is not None:
+      buttons.append(button(pub_url, "Link", "bi-file-earmark"))
+
+    github = data.get("github")
+    if github is not None:
+        buttons.append(button(github, "Github", "bi-github"))
+        
+    dataverse = data.get("dataverse")
+    if dataverse is not None:
+        buttons.append(button(dataverse, "Dataverse", "bi-database"))
+
+    venue = data.get("venue")
+    working_paper = pub_url is None
+    
+    pub_str = f'{author_str}. ({year_str}) "{title_str}."'
+
+    if venue is not None:
+        pub_str += f" <em>{venue}</em>."
+
+    output = "<li class='list-group-item'>" + pub_str + "<br>" + " ".join(buttons) + "</li>"
+
+    if type_str == "data":
+      pub_strs["data"].append(output)
+    elif type_str == "paper":
+      if working_paper:
+        pub_strs["wps"].append(output)
+      else:
+        pub_strs["pubs"].append(output)
+```
+
+## Selected Working Papers
+
+```{python}
+#| label: "not-published-year"
+#| id: "not-published-year"
+#| output: asis
+display(HTML("<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["wps"]) + "</ul>"))
+
+```
+
+## Publications
+
+```{python}
+#| label: "published-year"
+#| id: "published-year"
+#| output: asis
+display(HTML("<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["pubs"]) + "</ul>"))
+
+```
+
+## Datasets
+
+```{python}
+#| label: "data-year"
+#| id: "data-year"
+#| output: asis
+display(HTML("<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["data"]) + "</ul>"))
+
+```
 
 :::

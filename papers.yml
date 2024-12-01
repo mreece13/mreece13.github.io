@@ -1,4 +1,5 @@
 hidden_partisanship:
+  type: paper
   title: Hidden Partisanship in American Elections
   authors:
     - me
@@ -8,23 +9,49 @@ hidden_partisanship:
     - Charles H. Stewart III
   published_url: 
   venue: 
-  year: 2024
+  year: 2024+
   preprint: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4721012
 cvr_ideals:
+  type: paper 
   title: "The Democratic and the Republican Way to Clean the Street: Estimating Partisan Voting in Nonpartisan Offices Using Cast Vote Records"
   authors:
     - me
   published_url: 
   venue: 
-  year: 2024
+  year: 2024+
   preprint: files/cvr_ideals.pdf
   github: https://github.com/mreece13/cvr-ideals
 judicial_partisanship:
+  type: paper
   title: "Judges as Candidates: Responsiveness to Judicial Selection Methods"
   authors:
     - me
   published_url: 
   venue: 
-  year: 2024
+  year: 2024+
   preprint: files/judicial_partisanship.pdf
   github: https://github.com/mreece13/judicial-partisanship
+cvrs:
+  type: data
+  title: "Cast vote records: A database of ballots from the 2020 U.S. Election"
+  authors:
+    - Shiro Kuriwaki
+    - me
+    - Samuel Baltz
+    - Aleksandra Conevska
+    - Joseph R. Loffredo
+    - Can E. Mutlu
+    - Taran Samarth
+    - Kevin E. Acevedo Jetter
+    - Zachary Djanogly Garai
+    - Kate Murray
+    - Shigeo Hirano
+    - Jeffrey B. Lewis
+    - James M. Snyder Jr.
+    - Charles H. Stewart III
+  published_url: https://doi.org/10.1038/s41597-024-04017-1
+  github: https://github.com/kuriwaki/cvr_harvard-mit_scripts
+  venue: Nature Scientific Data
+  year: 2024
+  preprint: 
+  dataverse: https://doi.org/10.7910/DVN/PQQ3KV

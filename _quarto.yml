@@ -3,29 +3,14 @@ project:
 
 website:
   title: "Mason Reece"
-  description: "PhD Student in Political Science at the Massachusetts Institute of Technology"
+  description: "PhD Candidate in Political Science at MIT"
   page-navigation: true
   back-to-top-navigation: false
   search: false
 
-  navbar:
-    tools:
-    - icon: github
-      href: https://www.github.com/mreece13/mreece13.github.io
-    right:
-      - text: Research
-        aria-label: "Research"
-        href: research.qmd
-      - text: Data & Software
-        aria-label: "Data & Software"
-        href: data.qmd
-      - text: CV
-        aria-label: "Full CV"
-        href: files/cv.pdf
-
   page-footer:
     left: >-
-     &#169; 2024 Mason Reece &#8729; Made with [Quarto](https://quarto.org); Inspired by [Silvia Canelón's website](https://silviacanelon.com/)
+     &#169; 2024 Mason Reece &#8729; Made with [Quarto](https://quarto.org); Inspired by [Silvia Canelón's](https://silviacanelon.com/) and [Shiro Kuriwaki's](https://www.shirokuriwaki.com/) websites
     right: >-
       [mpreece (at) mit (dot) edu](mailto:mpreece@mit.edu)
 
@@ -33,7 +18,7 @@ format:
   html:
     theme: cosmo
     code-link: true
-    pagetitle: "{{< meta title >}} | Mason Reece"
+    pagetitle: "Mason Reece | {{< meta title >}}"
     lightbox: true
 
 execute:
