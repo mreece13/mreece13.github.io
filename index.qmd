@@ -5,8 +5,8 @@ subtitle: "PhD Student in Political Science at the Massachusetts Institute of Te
 image: assets/mason.jpeg
 
 about:
-  template: solana
-  image-width: 28em
+  template: trestles
+  image-width: 14em
   id: hero-heading
   links:
     - icon: github
