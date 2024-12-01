@@ -52,6 +52,11 @@
   flex: 2 0 auto;
 }
 
+h2 {
+  padding-bottom: 0rem;
+  margin-bottom: 0.25rem;
+}
+
 /* mobile query up for screens up to ~992px wide */
 @media screen and (max-width: 991.98px) {
     /* move text up & center */
