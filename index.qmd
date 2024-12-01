@@ -24,7 +24,6 @@ about:
 page-layout: full
 
 execute: 
-  freeze: false
   echo: false
   warning: false
 
