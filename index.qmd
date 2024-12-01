@@ -28,6 +28,8 @@ execute:
   echo: false
   warning: false
 
+jupyter: python3
+
 header-includes: >
   <link rel="stylesheet" href="assets/index.css">
 resources:
