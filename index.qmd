@@ -1,7 +1,7 @@
 ---
 title: "Mason Reece"
 pagetitle: "Mason Reece"
-subtitle: <b>PhD Candidate in Political Science at MIT</b> <br></br> Hi, I’m Mason Reece, and I’m a PhD candidate in MIT’s Political Science department focusing on American Politics and Models & Methods. I am interested in better understanding how election systems impact voter participation and confidence in our democratic system so that this knowledge can inform advocacy and directly improve electoral administration. To bring a practical lens to my research, I have served as the lead poll worker in Houston and Cambridge and organized a youth voters conference. In my free time, I love riding my bike, hiking, and trying food from around the world. You can find my CV [here](files/cv.pdf).
+subtitle: <b>PhD Candidate in Political Science at MIT</b> <br></br> Hi, I’m Mason Reece, and I’m a PhD candidate in MIT’s Political Science department focusing on American Politics and Models & Methods. I am interested in local politics, election administration, and novel methods to use large, original, datasets. My dissertation uses cast vote records to study local politics. <br></br> To bring a practical lens to my research, I have served as the lead poll worker in Houston and Cambridge and organized a youth voters conference. In my free time, I love riding my bike, hiking, and trying food from around the world. You can find my CV [here](files/cv.pdf).
 image: assets/mason.jpeg
 
 about:
