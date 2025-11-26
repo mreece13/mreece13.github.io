@@ -1,16 +1,16 @@
-hidden_partisanship:
-  type: paper
-  title: Hidden Partisanship in American Elections
-  authors:
-    - me
-    - Joseph R. Loffredo
-    - Alejandro Flores
-    - Samuel Baltz
-    - Charles H. Stewart III
-  published_url: 
-  venue: 
-  year: 2024+
-  preprint: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4721012
+# hidden_partisanship:
+#   type: paper
+#   title: Hidden Partisanship in American Elections
+#   authors:
+#     - me
+#     - Joseph R. Loffredo
+#     - Alejandro Flores
+#     - Samuel Baltz
+#     - Charles H. Stewart III
+#   published_url: 
+#   venue: 
+#   year: 2024+
+#   preprint: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4721012
 cvr_ideals:
   type: paper 
   title: "The Democratic and the Republican Way to Clean the Street: Estimating Partisan Voting in Nonpartisan Offices Using Cast Vote Records"
