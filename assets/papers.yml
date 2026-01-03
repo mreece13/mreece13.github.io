@@ -43,6 +43,7 @@ cvr_ml:
   authors:
     - me
   year: 2025+
+  preprint: files/vaes.pdf
 judicial_partisanship:
   type: paper
   title: "Judges as Candidates: Responsiveness to Judicial Selection Methods"
