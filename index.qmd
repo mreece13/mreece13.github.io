@@ -92,7 +92,7 @@ for _, data in yaml_data.items():
         pub_str += f" <em>{venue}</em>."
     
     if note is not None:
-        pub_str += f". {note}"
+        pub_str += f" {note}."
 
     output = "<li class='list-group-item'>" + pub_str + "<br>" + " ".join(buttons) + "</li>"
 
