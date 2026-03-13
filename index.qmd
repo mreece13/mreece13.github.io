@@ -83,12 +83,16 @@ for _, data in yaml_data.items():
         buttons.append(button(dataverse, "Dataverse", "bi-database"))
 
     venue = data.get("venue")
+    note = data.get("note")
     working_paper = pub_url is None
     
     pub_str = f'{author_str}. ({year_str}) "{title_str}."'
 
     if venue is not None:
         pub_str += f" <em>{venue}</em>."
+    
+    if note is not None:
+        pub_str += f". {note}"
 
     output = "<li class='list-group-item'>" + pub_str + "<br>" + " ".join(buttons) + "</li>"
 

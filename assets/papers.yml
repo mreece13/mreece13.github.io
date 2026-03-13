@@ -23,11 +23,12 @@
 #   github: https://github.com/mreece13/cvr-ideals
 partisan_judges:
   type: paper
-  title: "Partisan Elections and Partisan Voting: Evidence from Judicial Elections"
+  title: "Partisan Elections and Partisan Voting: Evidence from Partisan Judicial Elections"
   authors:
     - me
     - Daniel M. Thompson
-  year: 2025+
+  year: 2026
+  preprint: files/partisan_judges.pdf
 hpp:
   type: paper
   title: "Trends in Nationalization of State and Local Elections"
@@ -36,13 +37,13 @@ hpp:
     - Joseph Loffredo
     - me
     - James M. Snyder Jr.
-  year: 2025+
+  year: 2026+
 cvr_ml:
   type: paper
   title: "Even Faster Ideal Point Estimation Using Variational Autoencoders to Estimate Item-Response Theory Models"
   authors:
     - me
-  year: 2025+
+  year: 2026+
   preprint: files/vaes.pdf
 judicial_partisanship:
   type: paper
@@ -78,15 +79,16 @@ cvrs:
   year: 2024
   preprint: 
   dataverse: https://doi.org/10.7910/DVN/PQQ3KV
+  note: Co-first author with Kuriwaki
 postal_voting:
   type: paper
   title: "Postal Voting in the 2020 Election"
   authors:
     - Lonna Atkeson
-    - MV Hood III
+    - M. V. Hood III
     - Colin Jones
     - me
-    - Robert M Stein
+    - Robert M. Stein
   published_url: https://electioncenter.org/files-journal/documents/JEARP-volume01-issue-01-postal-voting-in-the-2020-election.pdf
   venue: Journal of Election Administration, Research and Practice
   year: 2022
