@@ -6,6 +6,7 @@ partisan_judges:
     - Daniel M. Thompson
   year: 2026
   preprint: files/partisan_judges.pdf
+  note: Under review
 hpp:
   type: paper
   title: "Trends in Nationalization of State and Local Elections"
