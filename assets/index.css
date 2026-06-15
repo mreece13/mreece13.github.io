@@ -1,96 +1,141 @@
-/* title */
-.title {
-  font-size: 2.5rem;
+/* Base typography — matches the reference site (system font stack) */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #111113;
+  line-height: 1.5;
+}
+
+/* Hide Quarto's default title block; the name lives in the sidebar instead */
+#title-block-header {
+  display: none;
+}
+
+/* ---- Two-column layout: sticky sidebar + scrolling content ---- */
+
+/* ID-scoped to beat Quarto's `#quarto-content > * { padding-top: 14px }` */
+#quarto-content > .profile-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 3.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 5.5rem 1.5rem 4rem;
+}
+
+/* Left column: stays put while the right column scrolls.
+   `top` is kept small so the sidebar aligns with the content at rest
+   (a larger value would push it down before any scrolling). */
+.profile-sidebar {
+  flex: 0 0 240px;
+  position: sticky;
+  top: 2rem;
+  text-align: left;
+}
+
+.profile-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.profile-sidebar h1 {
+  font-size: 1.8rem;
   font-weight: 700;
-  line-height: 1.1em !important;
+  line-height: 1.15;
+  margin: 0 0 0.25rem 0;
 }
 
-/* subtitle + Learn More About Me */
-.subtitle {
+/* The "PhD Candidate..." line */
+.profile-sidebar > p {
   font-size: 1rem;
-  font-weight: 400;
-  letter-spacing: 0.04em;
+  color: #555;
+  margin: 0 0 0.5rem 0;
 }
 
-/* heading, subtitle, and blurb */
-.about-entity {
-  text-align: center !important;
-  padding: 0 2em 0 2em;
-
-  /* social links: block of links */
-  .about-links {
-    justify-content: flex-end !important;
-    column-gap: 0em !important;
-    font-size: 1.2em !important;
-  }
-
-  /* social links: individual links */
-  .about-link {
-    padding: 0.25em 0.25em !important;
-    border: none !important;  
-  }
-
+.profile-email {
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
 }
 
-/* blurb */
-.about-contents {
-  padding: 0 0 0 2em !important;
+/* Social icon row */
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  font-size: 1.35rem;
+  margin-bottom: 1.25rem;
 }
 
-/* Learn More About Me */
-.about-links.subtitle {
-  font-size: 1em !important;
-  justify-content: flex-end !important;
+.profile-links a {
+  color: #333;
+  text-decoration: none;
 }
 
-/* image */
-.about-image {
-  padding: 0 0 0 0;
+.profile-links a:hover {
+  color: #2780e3; /* cosmo primary */
 }
 
-.nav-footer-left {
-  flex: 2 0 auto;
+.cv-button {
+  display: inline-block;
+  padding: 0.3rem 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: #333 !important;
+  text-decoration: none;
 }
 
-h2 {
-  padding-bottom: 0rem !important;
-  margin-bottom: 0.25rem !important;
+.cv-button:hover {
+  background: #f2f2f2;
 }
 
-/* mobile query up for screens up to ~992px wide */
+/* Right column: the scrolling content */
+.profile-content {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 640px;
+}
+
+.profile-content h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Bulleted publication lists */
+.profile-content ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+
+.profile-content li {
+  margin-bottom: 1.1rem;
+  line-height: 1.6;
+}
+
+/* ---- Mobile: stack the columns ---- */
 @media screen and (max-width: 991.98px) {
-    /* move text up & center */
-    .entity-contents {
-      order: 2 !important;
-      margin: -4em 0 0 0 !important;
-      padding: 0 0 0 0em !important;
-      text-align: center !important;
-    }
+  #quarto-content > .profile-layout {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1.25rem;
+  }
 
-    /* center subtitle */
-    .subtitle {
-      text-align: center !important;
-    }
+  .profile-sidebar {
+    position: static;
+    flex-basis: auto;
+    width: 100%;
+    text-align: center;
+  }
 
-    /* social links: block of links */
-    .about-entity .about-links {
-      justify-content: center !important;
-      font-size: 1em !important;
-    }
+  .profile-links {
+    justify-content: center;
+  }
 
-    /* blurb */
-    .about-contents {
-      padding: 0 0 0 0em !important;
-    }
-
-    /* center Learn More About Me */
-    .about-links.subtitle {
-      justify-content: center !important;
-    }
-
-    /* move image up, adjust padding */
-    .about-image {
-      order: 1 !important;
-      padding: 0 2em 0 2em !important;
-    }
+  .profile-content {
+    max-width: 100%;
+  }
 }
