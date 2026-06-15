@@ -1,129 +1,80 @@
 ---
 title: "Mason Reece"
 pagetitle: "Mason Reece"
-subtitle: <b>PhD Candidate in Political Science at MIT</b> <br></br> Hi, I’m Mason Reece, and I’m a PhD candidate in MIT’s Political Science department focusing on American Politics and Models & Methods. I am interested in local politics, election administration, and novel methods to use large, original, datasets. My dissertation uses cast vote records to study local politics. <br></br> To bring a practical lens to my research, I have served as the lead poll worker in Houston and Cambridge and organized a youth voters conference. In my free time, I love riding my bike, hiking, and trying food from around the world. You can find my CV [here](files/reece-cv.pdf).
-image: assets/mason.jpeg
-
-about:
-  template: trestles
-  image-width: 18em
-  id: hero-heading
-  links:
-    - icon: github
-      aria-label: Personal Github
-      href: https://github.com/mreece13
-    - icon: github
-      aria-label: MIT Github
-      href: https://github.mit.edu/mpreece
-    - icon: linkedin
-      aria-label: "LinkedIn"
-      href: https://www.linkedin.com/in/mason-reece/
-    - text: "{{< ai google-scholar >}}"
-      aria-label: "Google Scholar"
-      href: https://scholar.google.com/citations?user=XGy8x8cAAAAJ&hl=en
-page-layout: full
-
-execute: 
-  echo: false
-  warning: false
-
-jupyter: python3
-
-header-includes: >
-  <link rel="stylesheet" href="assets/index.css">
-resources:
-  - assets/index.css
+page-layout: custom
+format:
+  html:
+    theme: cosmo
+    css: assets/index.css
+    toc: false
 ---
 
-::: {#hero-heading}
+::: {.profile-layout}
 
-```{python}
-import yaml
-from IPython.display import display, Markdown, HTML
+::: {.profile-sidebar}
+![](assets/mason.jpeg){.profile-photo}
 
-def readable_list(_s):
-  if len(_s) < 3:
-    return ' and '.join(map(str, _s))
-  *a, b = _s
-  return f"{', '.join(map(str, a))}, and {b}"
+# Mason Reece
 
-def button(url, str, icon):
-    icon_base = icon[:2]
-    return f"""<a class="btn btn-outline-dark btn-sm", href="{url}" target="_blank" rel="noopener noreferrer">
-        <i class="{icon_base} {icon}" role='img' aria-label='{str}'></i>
-        {str}
-    </a>"""
+PhD Candidate in Political Science, MIT
 
-yaml_data = yaml.safe_load(open("assets/papers.yml"))
-pub_strs = {"pubs": [], "wps": [], "data": []}
-for _, data in yaml_data.items():
-    type_str = data["type"]
-    title_str = data["title"]
-    authors = data.get("authors", ["me"])
-    authors = [aut if aut != "me" else "<strong>Mason Reece</strong>" for aut in authors]
-    author_str = readable_list(authors)
-    year_str = data["year"]
+[mpreece (at) mit (dot) edu](mailto:mpreece@mit.edu){.profile-email}
+[Curriculum Vitae](files/reece-cv.pdf){.profile-email}
 
-    pub_url = data.get("published_url")
+::: {.profile-links}
+[{{< fa brands github >}}](https://github.com/mreece13 "Personal GitHub")
+[{{< fa brands github >}}](https://github.mit.edu/mpreece "MIT GitHub")
+[{{< fa brands linkedin >}}](https://www.linkedin.com/in/mason-reece/ "LinkedIn")
+[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=XGy8x8cAAAAJ&hl=en "Google Scholar")
+:::
 
-    buttons = []
-    preprint = data.get("preprint")
-    if preprint is not None:
-        buttons.append(button(preprint, "Most Recent Draft", "bi-file-earmark-pdf"))
+:::
 
-    if pub_url is not None:
-      buttons.append(button(pub_url, "Link", "bi-file-earmark"))
+::: {.profile-content}
 
-    github = data.get("github")
-    if github is not None:
-        buttons.append(button(github, "Github", "bi-github"))
-        
-    dataverse = data.get("dataverse")
-    if dataverse is not None:
-        buttons.append(button(dataverse, "Dataverse", "bi-database"))
+Hi, I'm a PhD candidate in MIT's Political Science department and an affiliate with [MIT's Election Data + Science Lab](https://electionlab.mit.edu/). I'm primarily interested in the behavior of voters and political actors at the state and local level in the United States. I also collect and develop methods to analyze large datasets. My dissertation uses ballot-level data (cast vote records) to study representation and competition in politics.
 
-    venue = data.get("venue")
-    note = data.get("note")
-    working_paper = pub_url is None
-    
-    pub_str = f'{author_str}. ({year_str}) "{title_str}."'
+<!-- My work has been published or is forthcoming in  -->
 
-    if venue is not None:
-        pub_str += f" <em>{venue}</em>."
-    
-    if note is not None:
-        pub_str += f" {note}."
+To bring a practical lens to my research, I have served as the lead poll worker in Houston and Cambridge and organized a youth voters conference. In my free time, I love riding my bike, hiking, and trying food from around the world.
 
-    output = "<li class='list-group-item'>" + pub_str + "<br>" + " ".join(buttons) + "</li>"
+## Working Papers
 
-    if type_str == "data":
-      pub_strs["data"].append(output)
-    elif type_str == "paper":
-      if working_paper:
-        pub_strs["wps"].append(output)
-      else:
-        pub_strs["pubs"].append(output)
-```
+- Mason Reece and Daniel M. Thompson. "[Partisan Elections and Partisan Voting: Evidence from Partisan Judicial Elections](files/partisan_judges.pdf)." *Under review.*
 
-## Selected Working Papers
-```{python}
-#| output: asis
-display(HTML("<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["wps"]) + "</ul>"))
+- Shigeo Hirano, Joseph Loffredo, Mason Reece, and James M. Snyder Jr. "Trends in Nationalization of State and Local Elections."
 
-```
+- Adam Rauh, Mason Reece, and Tyler Simko. "[Local community opposition to data centers is clear and growing](files/dcenters.pdf)." *Under review.*
+
+- Mason Reece. "Even Faster Ideal Point Estimation: Using Variational Autoencoders to Estimate Item-Response Theory Models"
+
+- Mason Reece. "Politics Without the Fight: The Consequences of Uncontested Elections"
 
 ## Publications
-```{python}
-#| output: asis
-display(HTML("<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["pubs"]) + "</ul>"))
 
-```
+- Shiro Kuriwaki, Mason Reece, Samuel Baltz, Aleksandra Conevska, Joseph R.
+  Loffredo, Can E. Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary
+  Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder
+  Jr., and Charles H. Stewart III (2024). "[Cast vote records: A database of
+  ballots from the 2020 U.S. Election](https://doi.org/10.1038/s41597-024-04017-1)."
+  *Nature Scientific Data.* Co-first author with Kuriwaki.
+  [Github](https://github.com/kuriwaki/cvr_harvard-mit_scripts).
+  [Dataverse](https://doi.org/10.7910/DVN/PQQ3KV).
 
-<!-- ## Datasets -->
-```{python}
-#| output: asis
-display(HTML("<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["data"]) + "</ul>"))
+- Lonna Atkeson, M. V. Hood III, Colin Jones, **Mason Reece**, and Robert M.
+  Stein (2022). "[Postal Voting in the 2020 Election](https://electioncenter.org/files-journal/documents/JEARP-volume01-issue-01-postal-voting-in-the-2020-election.pdf)."
+  *Journal of Election Administration, Research and Practice.*
 
-```
+<!-- ## Datasets
+
+*Coming soon — add entries following the format above, e.g.:*
+
+- **Mason Reece** (2026). "[Dataset title](#)." *Repository / venue.* [Dataverse](#) -->
+
+<!-- ## Teaching & Policy Engagement
+
+*Coming soon — list courses, guest lectures, op-eds, or policy briefings here.* -->
+
+:::
 
 :::
