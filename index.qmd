@@ -40,36 +40,41 @@ To bring a practical lens to my research, I have served as the lead poll worker 
 
 ## Working Papers
 
-- Mason Reece and Daniel M. Thompson. "[Partisan Elections and Partisan Voting: Evidence from Partisan Judicial Elections](files/partisan_judges.pdf)." *Under review.*
-
-- Shigeo Hirano, Joseph Loffredo, Mason Reece, and James M. Snyder Jr. "Trends in Nationalization of State and Local Elections."
-
-- Adam Rauh, Mason Reece, and Tyler Simko. "[Local community opposition to data centers is clear and growing](files/dcenters.pdf)." *Under review.*
+- Mason Reece. "Politics Without the Fight: The Consequences of Uncontested Elections"
 
 - Mason Reece. "Even Faster Ideal Point Estimation: Using Variational Autoencoders to Estimate Item-Response Theory Models"
 
-- Mason Reece. "Politics Without the Fight: The Consequences of Uncontested Elections"
+- Mason Reece and Daniel M. Thompson. "[Partisan Elections and Partisan Voting: Evidence from Partisan Judicial Elections](files/partisan_judges.pdf)." *Under review.*
+
+- Adam Rauh, Mason Reece, and Tyler Simko. "[Local community opposition to data centers is clear and growing](files/dcenters.pdf)." *Under review.*
+
+- Shigeo Hirano, Joseph Loffredo, Mason Reece, and James M. Snyder Jr. "Trends in Nationalization of State and Local Elections."
 
 ## Publications
 
-- Shiro Kuriwaki, Mason Reece, Samuel Baltz, Aleksandra Conevska, Joseph R.
-  Loffredo, Can E. Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary
-  Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder
-  Jr., and Charles H. Stewart III (2024). "[Cast vote records: A database of
-  ballots from the 2020 U.S. Election](https://doi.org/10.1038/s41597-024-04017-1)."
-  *Nature Scientific Data.* Co-first author with Kuriwaki.
-  [Github](https://github.com/kuriwaki/cvr_harvard-mit_scripts).
-  [Dataverse](https://doi.org/10.7910/DVN/PQQ3KV).
+- Shiro Kuriwaki, Mason Reece, Samuel Baltz, Aleksandra Conevska, Joseph R. Loffredo, Can E. Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder Jr., and Charles H. Stewart III (2024). "[Cast vote records: A database of ballots from the 2020 U.S. Election](https://doi.org/10.1038/s41597-024-04017-1)." *Nature Scientific Data.* Co-first author with Kuriwaki. [Github](https://github.com/kuriwaki/cvr_harvard-mit_scripts). [Dataverse](https://doi.org/10.7910/DVN/PQQ3KV).
 
-- Lonna Atkeson, M. V. Hood III, Colin Jones, **Mason Reece**, and Robert M.
-  Stein (2022). "[Postal Voting in the 2020 Election](https://electioncenter.org/files-journal/documents/JEARP-volume01-issue-01-postal-voting-in-the-2020-election.pdf)."
-  *Journal of Election Administration, Research and Practice.*
+- Lonna Atkeson, M. V. Hood III, Colin Jones, Mason Reece, and Robert M. Stein (2022). "[Postal Voting in the 2020 Election](https://electioncenter.org/files-journal/documents/JEARP-volume01-issue-01-postal-voting-in-the-2020-election.pdf)." *Journal of Election Administration, Research and Practice.*
 
 <!-- ## Datasets
 
 *Coming soon — add entries following the format above, e.g.:*
 
 - **Mason Reece** (2026). "[Dataset title](#)." *Repository / venue.* [Dataverse](#) -->
+
+## Teaching
+
+### Training
+
+- [Kaufman Teaching Certificate](https://tll.mit.edu/programming/grad-student-programming/kaufman-teaching-certificate-program/), MIT Teaching + Learning Lab (2026)
+
+### Experience
+- TA for Generalized Linear Modeling and Bayesian Inference (Fall 2025)
+  - MIT. Evaluation from students: 7.0/7.0. Professor: In Song Kim.
+- Introduction to Remote Resources, Political Methodology Lab Workshop (2024 + 2025)
+  - MIT. Co-instructor with [Gabrielle Péloquin-Skulski](https://gskulski.com/)
+- Reading (and writing) Quantitative Journal Articles, [MIT's Pathways to Political Science Workshop](https://globaldiversitylab.mit.edu/summer-research-internship/)
+
 
 <!-- ## Teaching & Policy Engagement
 
