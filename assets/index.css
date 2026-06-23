@@ -5,6 +5,10 @@ body {
   line-height: 1.5;
 }
 
+h3 {
+  font-size: 1.1rem
+}
+
 /* Hide Quarto's default title block; the name lives in the sidebar instead */
 #title-block-header {
   display: none;
