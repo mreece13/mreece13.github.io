@@ -48,13 +48,13 @@ To bring a practical lens to my research, I have served as the lead poll worker 
 
 - Adam Rauh, Mason Reece, and Tyler Simko. "[Local community opposition to data centers is clear and growing](files/dcenters.pdf)." *Under review.*
 
-- Shigeo Hirano, Joseph Loffredo, Mason Reece, and James M. Snyder Jr. "Trends in Nationalization of State and Local Elections."
+- Shigeo Hirano, Joseph R. Loffredo, Mason Reece, and James M. Snyder Jr. "Trends in Nationalization of State and Local Elections."
 
 ## Publications
 
 - Shiro Kuriwaki, Mason Reece, Samuel Baltz, Aleksandra Conevska, Joseph R. Loffredo, Can E. Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder Jr., and Charles H. Stewart III (2024). "[Cast vote records: A database of ballots from the 2020 U.S. Election](https://doi.org/10.1038/s41597-024-04017-1)." *Nature Scientific Data.* Co-first author with Kuriwaki. [Github](https://github.com/kuriwaki/cvr_harvard-mit_scripts). [Dataverse](https://doi.org/10.7910/DVN/PQQ3KV).
 
-- Lonna Atkeson, M. V. Hood III, Colin Jones, Mason Reece, and Robert M. Stein (2022). "[Postal Voting in the 2020 Election](https://electioncenter.org/files-journal/documents/JEARP-volume01-issue-01-postal-voting-in-the-2020-election.pdf)." *Journal of Election Administration, Research and Practice.*
+- Lonna Atkeson, M. V. Hood III, Colin Jones, Mason Reece, and Robert M. Stein (2022). "[Postal Voting in the 2020 Election](https://electioncenter.org/wp-content/uploads/2025/11/JEARP-Volume-01-Issue-01.pdf)." *Journal of Election Administration, Research and Practice.*
 
 <!-- ## Datasets
 
