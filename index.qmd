@@ -42,7 +42,7 @@ To bring a practical lens to my research, I have served as the lead poll worker 
 
 - Mason Reece. "Politics Without the Fight: The Consequences of Uncontested Elections"
 
-- Mason Reece. "Even Faster Ideal Point Estimation: Using Variational Autoencoders to Estimate Item-Response Theory Models"
+- Mason Reece. "[Even Faster Ideal Point Estimation: Using Variational Autoencoders to Estimate Item-Response Theory Models](files/vaes.pdf)"
 
 - Mason Reece and Daniel M. Thompson. "[Partisan Elections and Partisan Voting: Evidence from Partisan Judicial Elections](files/partisan_judges.pdf)." *Under review.*
 
