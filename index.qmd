@@ -56,11 +56,13 @@ To bring a practical lens to my research, I have served as the lead poll worker 
 
 - Lonna Atkeson, M. V. Hood III, Colin Jones, Mason Reece, and Robert M. Stein (2022). "[Postal Voting in the 2020 Election](https://electioncenter.org/wp-content/uploads/2025/11/JEARP-Volume-01-Issue-01.pdf)." *Journal of Election Administration, Research and Practice.*
 
-<!-- ## Datasets
+## Datasets
 
-*Coming soon — add entries following the format above, e.g.:*
+- Shiro Kuriwaki, Mason Reece, Samuel Baltz, Aleksandra Conevska, Joseph R. Loffredo, Can E. Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder Jr., and Charles H. Stewart III (2024). "Cast vote records: A database of ballots from the 2020 U.S. Election." [Dataverse](https://doi.org/10.7910/DVN/PQQ3KV)
 
-- **Mason Reece** (2026). "[Dataset title](#)." *Repository / venue.* [Dataverse](#) -->
+- Soubhik Barari, Tyler Simko, Mason Reece (2026). "LocalView Public Meetings Database" [Dataverse](https://doi.org/10.7910/DVN/NJTBEM)
+
+- Tyler Simko, Rebecca Johnson, Mirya Holman, Mason Reece (2026). "DistrictView School Board Meetings Database" [Dataverse](https://doi.org/10.7910/DVN/ERDATA)
 
 ## Teaching
 
