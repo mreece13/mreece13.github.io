@@ -9,3 +9,5 @@
 # Build output — rendered on CI and published to the gh-pages branch
 /_site/
 /_freeze/
+
+**/*.quarto_ipynb

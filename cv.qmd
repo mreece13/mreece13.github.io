@@ -1,0 +1,180 @@
+---
+format:
+  typst:
+    margin:
+      x: 1.6cm
+      y: 1.6cm
+    fontsize: 10pt
+    mainfont: "New Computer Modern"
+    keep-typ: false
+    shift-heading-level-by: 0
+    output-file: reece-cv.pdf
+---
+
+```{=typst}
+// --- Header ---
+#align(center)[
+  #text(size: 22pt, weight: "bold")[Mason Reece]
+  #v(2pt)
+  #text(size: 12pt)[Curriculum Vitae]
+  #v(1pt)
+  #text(size: 9pt)[Last updated: #datetime.today().display("[month repr:long] [year]")]
+]
+#v(6pt)
+#grid(
+  columns: (1fr, 1fr),
+  align: (left, right),
+  gutter: 8pt,
+  [
+    Department of Political Science, MIT \
+    30 Wadsworth St, Cambridge, MA 02142
+  ],
+  [
+    #link("https://mreece13.github.io/")[mreece13.github.io] \
+    #link("mailto:mpreece@mit.edu")[mpreece\@mit.edu]
+  ],
+)
+#v(4pt)
+
+// --- Links: colored blue like the original CV ---
+#show link: set text(fill: rgb("#002c6f"))
+
+// --- Section headings: small caps + rule; sticky so they never orphan ---
+#show heading.where(level: 2): it => block(sticky: true)[
+  #v(8pt)
+  #text(size: 12pt, weight: "bold")[#smallcaps(it.body)]
+  #v(1pt)
+  #line(length: 100%, stroke: 0.5pt)
+  #v(2pt)
+]
+#show heading.where(level: 3): it => [
+  #v(4pt)
+  #text(size: 10.5pt)[#it.body]
+]
+
+// --- Helper: right-aligned date on an entry line ---
+#let by(date) = box(width: 1fr)[#h(1fr) #date]
+
+// --- Helper: indented ("tabbed"), non-bulleted block of entries.
+//     Separate entries with a blank line; push dates right with #h(1fr). ---
+#let tab(body) = pad(left: 1.5em, body)
+```
+
+## Education
+
+**Massachusetts Institute of Technology** `#by[2022 -- Present]`{=typst}
+
+- PhD in Political Science, focus in American Politics and Models & Methods
+- Dissertation: *Essays on Local Political Behavior using Cast Vote Records*
+    - Committee: Andrea Campbell, Devin Caughey, and Charles Stewart III (chair)
+
+**Rice University** `#by[2022]`{=typst}
+
+- BA in Political Science with Honors, BA in Social Policy Analysis, Minor in Data Science
+- Distinction in Research and Creative Works, Phi Beta Kappa
+
+## Publications
+
+- Shiro Kuriwaki, Mason Reece, Samuel Baltz, Aleksandra Conevska, Joseph R. Loffredo, Can Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder Jr., and Charles Stewart III. [Cast vote records: A database of ballots from the 2020 U.S. Election.](https://doi.org/10.1038/s41597-024-04017-1) Nature Scientific Data 11, 1304 (2024). DOI: [10.1038/s41597-024-04017-1](https://doi.org/10.1038/s41597-024-04017-1).
+
+- Lonna Rae Atkeson, M.V. Hood III, Colin Jones, Mason Reece, and Robert M. Stein. [Postal Voting in the 2020 Election.](https://electioncenter.org/wp-content/uploads/2025/11/JEARP-Volume-01-Issue-01.pdf) Journal of Election Administration, Research and Practice 1(1): 23–34 (2022).
+
+## Working Papers
+
+- [*Even Faster Ideal Point Estimation: Using Variational Autoencoders to Estimate IRT Models*](https://mreece13.github.io/files/vaes.pdf)
+- [*Partisan Elections and Partisan Voting: Evidence from Judicial Elections*](https://mreece13.github.io/files/partisan_judges.pdf) (with Daniel M. Thompson). Under review.
+- [*Local community opposition to data centers is clear and growing*](https://mreece13.github.io/files/dcenters.pdf) (with Adam Rauh and Tyler Simko). Under review.
+
+## Works in Progress
+
+- *Politics Without the Fight: The Consequences of Uncontested Elections*
+- *Trends in Nationalization of State and Local Elections* (with Shigeo Hirano, Joseph R. Loffredo, and James M. Snyder Jr.)
+- *Policy Diffusion in Local Governments: The Case of Data Centers* (with Adam Rauh and Tyler Simko)
+- *Gender, Judicial Selection, and Emotional Engagement* (with Mirya R. Holman, Andreas Küpfer, and Tyler Simko)
+- *DistrictView: A Pipeline to Study School Board Deliberations* (with Mirya R. Holman, Rebecca Johnson, and Tyler Simko)
+
+## Datasets
+
+- [*LocalView Public Meetings Database*](https://doi.org/10.7910/DVN/NJTBEM). 2026. (with Soubhik Barari and Tyler Simko).
+- [*DistrictView*](https://doi.org/10.7910/DVN/ERDATA). 2026. (with Tyler Simko, Rebecca Johnson, and Mirya Holman).
+- [*Cast vote records: A database of ballots from the 2020 U.S. Election*](https://doi.org/10.7910/DVN/PQQ3KV). 2024. (with Shiro Kuriwaki and 12 others).
+
+## Teaching
+
+### Training
+
+```{=typst}
+#tab[
+  #link("https://tll.mit.edu/programming/grad-student-programming/kaufman-teaching-certificate-program/")[Kaufman Teaching Certificate], MIT Teaching + Learning Lab #h(1fr) 2026
+]
+```
+
+### Experience
+
+```{=typst}
+#tab[
+  TA for Generalized Linear Modeling and Bayesian Inference. MIT. Evaluation from students: 7.0/7.0. Professor: In Song Kim. #h(1fr) 2025
+
+  Reading (and writing) Quantitative Journal Articles. [MIT’s Pathways to Political Science Workshop](https://globaldiversitylab.mit.edu/summer-research-internship/). #h(1fr) 2026
+
+  Introduction to Remote Resources. MIT’s Political Methodology Lab Workshop. Co-instructor with [Gabrielle Péloquin-Skulski](https://gskulski.com/) #h(1fr) 2025
+
+  Introduction to Remote Resources. MIT’s Political Methodology Lab Workshop. #h(1fr) 2024
+]
+```
+
+## Awards and Distinctions
+
+MIT Political Methodology Lab Research Grant `#by[2026]`{=typst}
+
+[MIT Prize for Open Data](https://libraries.mit.edu/opendata/open-data-mit-home/mit-prize/) `#by[2024]`{=typst}
+
+[Sallyport Award](https://alumni.rice.edu/sallyport-award), considered to be the top undergraduate award at Rice `#by[2022]`{=typst}
+
+Judge Woodrow Seals Award for Community Service `#by[2022]`{=typst}
+
+Rhodes, Marshall, and Truman Scholarship Finalist `#by[2021 -- 2022]`{=typst}
+
+Douglas S. Harlan Award, for demonstrated commitment to political involvement `#by[2021]`{=typst}
+
+[Morty Rich Scholarship](https://ccl.rice.edu/ca), for commitment and service to Rice and the greater community `#by[2021]`{=typst}
+
+Jesse Jones Leadership Summer in DC Internship Program `#by[2020 & 2021]`{=typst}
+
+Rice University Trustee Distinguished Merit Scholarship `#by[2018 -- 2022]`{=typst}
+
+## Presentations
+
+**2026:** University of Michigan School of Information; American Politics Workshop, MIT; Election Science, Reform, and Administration Conference; State Politics & Policy Conference (poster); Political Methodology Conference (poster); American Political Science Association Conference
+
+**2025:** Election Science, Reform, and Administration Conference; American Politics Workshop, MIT
+
+**2024:** Southern Political Science Association Conference; Election Science, Reform, and Administration Conference; American Political Science Association Conference (poster)
+
+**2023:** Election Science, Reform, and Administration Conference
+
+**2021:** Rice University's Social Science Advisory Board
+
+## Service
+
+Mentorship Co-Chair, MIT Political Science Graduate Student Council `#by[2025 & 2026]`{=typst}
+
+## Software
+
+[rcvr](https://github.com/mreece13/rcvr): Clean cast vote records of many types (creator)
+
+## Other Experience
+
+**CBS News Election Data Desk** `#by[2024 -- Present]`{=typst}
+
+- Co-created R/Python pipeline to scrape and analyze election night returns at the precinct-level in battleground states. Worked in real time to provide live election results for the 2024 and 2025 general elections. Collaborated with a diverse team of academics and news analysts. Implementing new machine learning and conformal inference for the 2026 elections.
+
+**Research Assistantships**
+
+- Assisted with various research projects for: Charles Stewart III (2023--2025); Devin Caughey (Summer 2025); Political Methodology Lab (Fall 2024); Robert M. Stein and Elizabeth Vann (2019--2022); Chris Edelson (Summer 2020); A. Kadir Yildirim (2019--2020); Melissa Marschall (2019).
+
+**Center for Election Innovation and Research** `#by[Summer 2021]`{=typst}
+
+**Head Poll Worker in Cambridge** `#by[2022 -- 2024]`{=typst}
+
+**Head Poll Worker at the Rice Polling Location** `#by[2020 -- 2022]`{=typst}

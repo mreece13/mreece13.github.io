@@ -19,7 +19,7 @@ format:
 PhD Candidate in Political Science, MIT
 
 [mpreece (at) mit (dot) edu](mailto:mpreece@mit.edu){.profile-email}
-[Curriculum Vitae](files/reece-cv.pdf){.profile-email}
+[Curriculum Vitae](reece-cv.pdf){.profile-email}
 
 ::: {.profile-links}
 [{{< fa brands github >}}](https://github.com/mreece13 "Personal GitHub")
@@ -38,9 +38,13 @@ Hi, I'm a PhD candidate in MIT's Political Science department and an affiliate w
 
 To bring a practical lens to my research, I have served as the lead poll worker in Houston and Cambridge and organized a youth voters conference. In my free time, I love riding my bike, hiking, and trying food from around the world.
 
-## Working Papers
+## Publications
 
-- Mason Reece. "Politics Without the Fight: The Consequences of Uncontested Elections"
+- Shiro Kuriwaki, Mason Reece, Samuel Baltz, Aleksandra Conevska, Joseph R. Loffredo, Can E. Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder Jr., and Charles H. Stewart III (2024). "[Cast vote records: A database of ballots from the 2020 U.S. Election](https://doi.org/10.1038/s41597-024-04017-1)." *Nature Scientific Data*. Co-first author with Kuriwaki. [Github](https://github.com/kuriwaki/cvr_harvard-mit_scripts). [Dataverse](https://doi.org/10.7910/DVN/PQQ3KV).
+
+- Lonna Atkeson, M. V. Hood III, Colin Jones, Mason Reece, and Robert M. Stein (2022). "[Postal Voting in the 2020 Election](https://electioncenter.org/wp-content/uploads/2025/11/JEARP-Volume-01-Issue-01.pdf)." *Journal of Election Administration, Research and Practice.*
+
+## Working Papers
 
 - Mason Reece. "[Even Faster Ideal Point Estimation: Using Variational Autoencoders to Estimate Item-Response Theory Models](files/vaes.pdf)"
 
@@ -48,13 +52,17 @@ To bring a practical lens to my research, I have served as the lead poll worker 
 
 - Adam Rauh, Mason Reece, and Tyler Simko. "[Local community opposition to data centers is clear and growing](files/dcenters.pdf)." *Under review.*
 
+## Works in Progress
+
+- Mason Reece. "Politics Without the Fight: The Consequences of Uncontested Elections"
+
 - Shigeo Hirano, Joseph R. Loffredo, Mason Reece, and James M. Snyder Jr. "Trends in Nationalization of State and Local Elections."
 
-## Publications
+- Adam Rauh, Mason Reece, and Tyler Simko. "Policy Diffusion in Local Governments: The Case of Data Centers."
 
-- Shiro Kuriwaki, Mason Reece, Samuel Baltz, Aleksandra Conevska, Joseph R. Loffredo, Can E. Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder Jr., and Charles H. Stewart III (2024). "[Cast vote records: A database of ballots from the 2020 U.S. Election](https://doi.org/10.1038/s41597-024-04017-1)." *Nature Scientific Data.* Co-first author with Kuriwaki. [Github](https://github.com/kuriwaki/cvr_harvard-mit_scripts). [Dataverse](https://doi.org/10.7910/DVN/PQQ3KV).
+- Mirya R. Holman, Andreas Küpfer, Mason Reece, and Tyler Simko. "Gender, Judicial Selection, and Emotional Engagement."
 
-- Lonna Atkeson, M. V. Hood III, Colin Jones, Mason Reece, and Robert M. Stein (2022). "[Postal Voting in the 2020 Election](https://electioncenter.org/wp-content/uploads/2025/11/JEARP-Volume-01-Issue-01.pdf)." *Journal of Election Administration, Research and Practice.*
+- Mirya R. Holman, Rebecca Johnson, Mason Reece, and Tyler Simko. "DistrictView: A Pipeline to Study School Board Deliberations."
 
 ## Datasets
 
