@@ -13,7 +13,7 @@ format:
 
 ```{=typst}
 // --- Links: colored blue like the original CV ---
-#show link: set text(fill: rgb("#002c6f"))
+#show link: set text(fill: rgb("#750014"))
 
 // --- Header ---
 #align(center)[
