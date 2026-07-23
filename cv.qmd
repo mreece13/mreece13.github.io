@@ -12,6 +12,9 @@ format:
 ---
 
 ```{=typst}
+// --- Links: colored blue like the original CV ---
+#show link: set text(fill: rgb("#002c6f"))
+
 // --- Header ---
 #align(center)[
   #text(size: 22pt, weight: "bold")[Mason Reece]
@@ -35,9 +38,6 @@ format:
   ],
 )
 #v(4pt)
-
-// --- Links: colored blue like the original CV ---
-#show link: set text(fill: rgb("#002c6f"))
 
 // --- Section headings: small caps + rule; sticky so they never orphan ---
 #show heading.where(level: 2): it => block(sticky: true)[
