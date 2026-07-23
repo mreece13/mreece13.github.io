@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "index.html#working-papers",
-    "href": "index.html#working-papers",
-    "title": "Mason Reece",
-    "section": "Working Papers",
-    "text": "Working Papers\n\nMason Reece. “Politics Without the Fight: The Consequences of Uncontested Elections”\nMason Reece. “Even Faster Ideal Point Estimation: Using Variational Autoencoders to Estimate Item-Response Theory Models”\nMason Reece and Daniel M. Thompson. “Partisan Elections and Partisan Voting: Evidence from Partisan Judicial Elections.” Under review.\nAdam Rauh, Mason Reece, and Tyler Simko. “Local community opposition to data centers is clear and growing.” Under review.\nShigeo Hirano, Joseph R. Loffredo, Mason Reece, and James M. Snyder Jr. “Trends in Nationalization of State and Local Elections.”"
-  },
-  {
     "objectID": "index.html#publications",
     "href": "index.html#publications",
     "title": "Mason Reece",
     "section": "Publications",
     "text": "Publications\n\nShiro Kuriwaki, Mason Reece, Samuel Baltz, Aleksandra Conevska, Joseph R. Loffredo, Can E. Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder Jr., and Charles H. Stewart III (2024). “Cast vote records: A database of ballots from the 2020 U.S. Election.” Nature Scientific Data. Co-first author with Kuriwaki. Github. Dataverse.\nLonna Atkeson, M. V. Hood III, Colin Jones, Mason Reece, and Robert M. Stein (2022). “Postal Voting in the 2020 Election.” Journal of Election Administration, Research and Practice."
+  },
+  {
+    "objectID": "index.html#working-papers",
+    "href": "index.html#working-papers",
+    "title": "Mason Reece",
+    "section": "Working Papers",
+    "text": "Working Papers\n\nMason Reece. “Even Faster Ideal Point Estimation: Using Variational Autoencoders to Estimate Item-Response Theory Models”\nMason Reece and Daniel M. Thompson. “Partisan Elections and Partisan Voting: Evidence from Partisan Judicial Elections.” Under review.\nAdam Rauh, Mason Reece, and Tyler Simko. “Local community opposition to data centers is clear and growing.” Under review."
+  },
+  {
+    "objectID": "index.html#works-in-progress",
+    "href": "index.html#works-in-progress",
+    "title": "Mason Reece",
+    "section": "Works in Progress",
+    "text": "Works in Progress\n\nMason Reece. “Politics Without the Fight: The Consequences of Uncontested Elections”\nShigeo Hirano, Joseph R. Loffredo, Mason Reece, and James M. Snyder Jr. “Trends in Nationalization of State and Local Elections.”\nAdam Rauh, Mason Reece, and Tyler Simko. “Policy Diffusion in Local Governments: The Case of Data Centers.”\nMirya R. Holman, Andreas Küpfer, Mason Reece, and Tyler Simko. “Gender, Judicial Selection, and Emotional Engagement.”\nMirya R. Holman, Rebecca Johnson, Mason Reece, and Tyler Simko. “DistrictView: A Pipeline to Study School Board Deliberations.”"
   },
   {
     "objectID": "index.html#datasets",
