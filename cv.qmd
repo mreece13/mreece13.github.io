@@ -58,6 +58,17 @@ format:
 // --- Helper: indented ("tabbed"), non-bulleted block of entries.
 //     Separate entries with a blank line; push dates right with #h(1fr). ---
 #let tab(body) = pad(left: 1.5em, body)
+
+// --- Helper: a single tabbed entry with a right-aligned date in its own
+//     column. Text wraps within the left column (with a gutter) so it never
+//     collides with the date. ---
+#let entry(body, date) = pad(left: 1.5em)[
+  #grid(
+    columns: (1fr, auto),
+    column-gutter: 4.5em,
+    body, align(right)[#date],
+  )
+]
 ```
 
 ## Education
@@ -104,23 +115,29 @@ format:
 ### Training
 
 ```{=typst}
-#tab[
-  #link("https://tll.mit.edu/programming/grad-student-programming/kaufman-teaching-certificate-program/")[Kaufman Teaching Certificate], MIT Teaching + Learning Lab #h(1fr) 2026
-]
+#entry[
+  #link("https://tll.mit.edu/programming/grad-student-programming/kaufman-teaching-certificate-program/")[Kaufman Teaching Certificate], MIT Teaching + Learning Lab
+][2026]
 ```
 
 ### Experience
 
 ```{=typst}
-#tab[
-  TA for Generalized Linear Modeling and Bayesian Inference. MIT. Evaluation from students: 7.0/7.0. Professor: In Song Kim. #h(1fr) 2025
+#entry[
+  TA for Generalized Linear Modeling and Bayesian Inference. MIT. Evaluation from students: 7.0/7.0. Professor: In Song Kim
+][2025]
 
-  Reading (and writing) Quantitative Journal Articles. [MIT’s Pathways to Political Science Workshop](https://globaldiversitylab.mit.edu/summer-research-internship/). #h(1fr) 2026
+#entry[
+  Reading (and writing) Quantitative Journal Articles. #link("https://globaldiversitylab.mit.edu/summer-research-internship/")[MIT’s Pathways to Political Science Workshop].
+][2026]
 
-  Introduction to Remote Resources. MIT’s Political Methodology Lab Workshop. Co-instructor with [Gabrielle Péloquin-Skulski](https://gskulski.com/) #h(1fr) 2025
+#entry[
+  Introduction to Remote Resources. MIT’s Political Methodology Lab Workshop. Co-instructor with #link("https://gskulski.com/")[Gabrielle Péloquin-Skulski]
+][2025]
 
-  Introduction to Remote Resources. MIT’s Political Methodology Lab Workshop. #h(1fr) 2024
-]
+#entry[
+  Introduction to Remote Resources. MIT’s Political Methodology Lab Workshop.
+][2024]
 ```
 
 ## Awards and Distinctions
@@ -133,7 +150,7 @@ MIT Political Methodology Lab Research Grant `#by[2026]`{=typst}
 
 Judge Woodrow Seals Award for Community Service `#by[2022]`{=typst}
 
-Rhodes, Marshall, and Truman Scholarship Finalist `#by[2021 -- 2022]`{=typst}
+Rhodes, Marshall, and Truman Scholarship Finalist `#by[2021 & 2022]`{=typst}
 
 Douglas S. Harlan Award, for demonstrated commitment to political involvement `#by[2021]`{=typst}
 
