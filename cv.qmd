@@ -86,9 +86,9 @@ format:
 
 ## Publications
 
-- Shiro Kuriwaki$^*$, Mason Reece$^*$, Samuel Baltz, Aleksandra Conevska, Joseph R. Loffredo, Can Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder Jr., and Charles Stewart III. [Cast vote records: A database of ballots from the 2020 U.S. Election.](https://doi.org/10.1038/s41597-024-04017-1) Nature Scientific Data 11, 1304 (2024). DOI: [10.1038/s41597-024-04017-1](https://doi.org/10.1038/s41597-024-04017-1). $^*$ Co-first author with Kuriwaki.
+- Shiro Kuriwaki$^*$, Mason Reece$^*$, Samuel Baltz, Aleksandra Conevska, Joseph R. Loffredo, Can E. Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder Jr., and Charles Stewart III. [*Cast vote records: A database of ballots from the 2020 U.S. Election*](https://doi.org/10.1038/s41597-024-04017-1). Nature Scientific Data 11, 1304 (2024). DOI: [10.1038/s41597-024-04017-1](https://doi.org/10.1038/s41597-024-04017-1). $^*$ Co-first author with Kuriwaki.
 
-- Lonna Rae Atkeson, M.V. Hood III, Colin Jones, Mason Reece, and Robert M. Stein. [Postal Voting in the 2020 Election.](https://electioncenter.org/wp-content/uploads/2025/11/JEARP-Volume-01-Issue-01.pdf) Journal of Election Administration, Research and Practice 1(1): 23–34 (2022).
+- Lonna Rae Atkeson, M.V. Hood III, Colin Jones, Mason Reece, and Robert M. Stein. [*Postal Voting in the 2020 Election*](https://electioncenter.org/wp-content/uploads/2025/11/JEARP-Volume-01-Issue-01.pdf). Journal of Election Administration, Research and Practice 1(1): 23–34 (2022).
 
 ## Working Papers
 
@@ -124,19 +124,19 @@ format:
 
 ```{=typst}
 #entry[
-  TA for Generalized Linear Modeling and Bayesian Inference. MIT. Evaluation from students: 7.0/7.0. Professor: In Song Kim
-][2025]
-
-#entry[
-  Reading (and writing) Quantitative Journal Articles. #link("https://globaldiversitylab.mit.edu/summer-research-internship/")[MIT’s Pathways to Political Science Workshop].
+  Instructor for _Reading (and writing) Quantitative Journal Articles_. #link("https://globaldiversitylab.mit.edu/summer-research-internship/")[MIT’s Pathways to Political Science Workshop].
 ][2026]
 
 #entry[
-  Introduction to Remote Resources. MIT’s Political Methodology Lab Workshop. Co-instructor with #link("https://gskulski.com/")[Gabrielle Péloquin-Skulski]
+  TA for _Generalized Linear Modeling and Bayesian Inference_. MIT. Evaluation from students: 7.0/7.0. Professor: In Song Kim
 ][2025]
 
 #entry[
-  Introduction to Remote Resources. MIT’s Political Methodology Lab Workshop.
+  Co-instructor (with #link("https://gskulski.com/")[Gabrielle Péloquin-Skulski]) for _Introduction to Remote Resources_. MIT’s Political Methodology Lab Workshop.
+][2025]
+
+#entry[
+  Instructor for _Introduction to Remote Resources_. MIT’s Political Methodology Lab Workshop.
 ][2024]
 ```
 
