@@ -86,7 +86,7 @@ format:
 
 ## Publications
 
-- Shiro Kuriwaki, Mason Reece, Samuel Baltz, Aleksandra Conevska, Joseph R. Loffredo, Can Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder Jr., and Charles Stewart III. [Cast vote records: A database of ballots from the 2020 U.S. Election.](https://doi.org/10.1038/s41597-024-04017-1) Nature Scientific Data 11, 1304 (2024). DOI: [10.1038/s41597-024-04017-1](https://doi.org/10.1038/s41597-024-04017-1).
+- Shiro Kuriwaki$^*$, Mason Reece$^*$, Samuel Baltz, Aleksandra Conevska, Joseph R. Loffredo, Can Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder Jr., and Charles Stewart III. [Cast vote records: A database of ballots from the 2020 U.S. Election.](https://doi.org/10.1038/s41597-024-04017-1) Nature Scientific Data 11, 1304 (2024). DOI: [10.1038/s41597-024-04017-1](https://doi.org/10.1038/s41597-024-04017-1). $^*$ Co-first author with Kuriwaki.
 
 - Lonna Rae Atkeson, M.V. Hood III, Colin Jones, Mason Reece, and Robert M. Stein. [Postal Voting in the 2020 Election.](https://electioncenter.org/wp-content/uploads/2025/11/JEARP-Volume-01-Issue-01.pdf) Journal of Election Administration, Research and Practice 1(1): 23–34 (2022).
 
