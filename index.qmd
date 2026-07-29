@@ -79,10 +79,10 @@ To bring a practical lens to my research, I have served as the lead poll worker 
 - [Kaufman Teaching Certificate](https://tll.mit.edu/programming/grad-student-programming/kaufman-teaching-certificate-program/). MIT Teaching + Learning Lab. 2026.
 
 ### Experience
-- TA for Generalized Linear Modeling and Bayesian Inference. MIT. 2025. Evaluation from students: 7.0/7.0. Professor: In Song Kim.
-- Reading (and writing) Quantitative Journal Articles. [MIT's Pathways to Political Science Workshop](https://globaldiversitylab.mit.edu/summer-research-internship/). 2026.
-- Introduction to Remote Resources. MIT's Political Methodology Lab Workshop. 2025. Co-instructor with [Gabrielle Péloquin-Skulski](https://gskulski.com/)
-- Introduction to Remote Resources. MIT's Political Methodology Lab Workshop. 2024.
+- Instructor for *Reading (and writing) Quantitative Journal Articles*. [MIT's Pathways to Political Science Workshop](https://globaldiversitylab.mit.edu/summer-research-internship/). 2026.
+- TA for *Generalized Linear Modeling and Bayesian Inference*. MIT. 2025. Evaluation from students: 7.0/7.0. Professor: In Song Kim.
+- Co-instructor (with [Gabrielle Péloquin-Skulski](https://gskulski.com/)) for *Introduction to Remote Resources*. MIT's Political Methodology Lab Workshop. 2025.
+- Instructor for *Introduction to Remote Resources*. MIT's Political Methodology Lab Workshop. 2024.
 
 :::
 
