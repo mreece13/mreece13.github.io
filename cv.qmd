@@ -98,7 +98,7 @@ format:
 
 ## Works in Progress
 
-- *Politics Without the Fight: The Consequences of Uncontested Elections*
+- *Representation in Uncontested Elections*
 - *Trends in Nationalization of State and Local Elections* (with Shigeo Hirano, Joseph R. Loffredo, and James M. Snyder Jr.)
 - *Policy Diffusion in Local Governments: The Case of Data Centers* (with Adam Rauh and Tyler Simko)
 - *Gender, Judicial Selection, and Emotional Engagement* (with Mirya R. Holman, Andreas Küpfer, and Tyler Simko)
