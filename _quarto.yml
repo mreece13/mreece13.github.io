@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - files/
+    - CNAME
 
 website:
   title: "Mason Reece"
