@@ -102,7 +102,7 @@ format:
 
 - *Representation in Uncontested Elections*
 - *Trends in Nationalization of State and Local Elections* (with Shigeo Hirano, Joseph R. Loffredo, and James M. Snyder Jr.)
-- *Policy Diffusion in Local Governments: The Case of Data Centers* (with Adam Rauh and Tyler Simko)
+- *Policy Diffusion in Local Governments: The Case of Data Centers* (with Tyler Simko)
 - *Gender, Judicial Selection, and Emotional Engagement* (with Mirya R. Holman, Andreas Küpfer, and Tyler Simko)
 - *DistrictView: A Pipeline to Study School Board Deliberations* (with Mirya R. Holman, Rebecca Johnson, and Tyler Simko)
 
@@ -178,7 +178,7 @@ Rice University Trustee Distinguished Merit Scholarship `#by[2018 -- 2022]`{=typ
 
 Editorial Assistant, *American Journal of Political Science* `#by[2026 -- Present]`{=typst}
 
-Mentorship Co-Chair, MIT Political Science Graduate Student Council `#by[2025 & 2026]`{=typst}
+Mentorship Co-Chair, MIT Political Science Graduate Student Council `#by[2025 -- Present]`{=typst}
 
 ## Software
 
