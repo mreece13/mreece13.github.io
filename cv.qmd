@@ -86,7 +86,7 @@ format:
 
 ## Publications
 
-- [*Local community opposition to data centers is clear and growing*](https://mreece13.github.io/files/dcenters.pdf) (with Adam Rauh and Tyler Simko). *Nature: Cities*. Accepted. 2026.
+- [*Community opposition to data centers in cities is clear and growing*](https://mreece13.github.io/files/dcenters.pdf) (with Adam Rauh and Tyler Simko). *Nature: Cities*. Accepted. 2026.
 
 - Shiro Kuriwaki$^*$, Mason Reece$^*$, Samuel Baltz, Aleksandra Conevska, Joseph R. Loffredo, Can E. Mutlu, Taran Samarth, Kevin E. Acevedo Jetter, Zachary Djanogly Garai, Kate Murray, Shigeo Hirano, Jeffrey B. Lewis, James M. Snyder Jr., and Charles Stewart III. [*Cast vote records: A database of ballots from the 2020 U.S. Election*](https://doi.org/10.1038/s41597-024-04017-1). Nature Scientific Data 11, 1304 (2024). DOI: [10.1038/s41597-024-04017-1](https://doi.org/10.1038/s41597-024-04017-1). $^*$ Co-first author with Kuriwaki.
 
