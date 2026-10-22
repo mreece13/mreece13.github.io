@@ -96,6 +96,7 @@ format:
 
 - [*Even Faster Ideal Point Estimation: Using Variational Autoencoders to Estimate IRT Models*](https://mreece13.github.io/files/vaes.pdf)
 - [*Partisan Elections and Partisan Voting: Evidence from Judicial Elections*](https://mreece13.github.io/files/partisan_judges.pdf) (with Daniel M. Thompson). Under review.
+- ["DistrictView: A Pipeline to Study School Board Deliberations."](files/districtview_datapaper.pdf) (with Mirya R. Holman, Rebecca Johnson, and Tyler Simko). Under review.
 
 
 ## Works in Progress
@@ -104,7 +105,6 @@ format:
 - *Trends in Nationalization of State and Local Elections* (with Shigeo Hirano, Joseph R. Loffredo, and James M. Snyder Jr.)
 - *Policy Diffusion in Local Governments: The Case of Data Centers* (with Tyler Simko)
 - *Gender, Judicial Selection, and Emotional Engagement* (with Mirya R. Holman, Andreas Küpfer, and Tyler Simko)
-- *DistrictView: A Pipeline to Study School Board Deliberations* (with Mirya R. Holman, Rebecca Johnson, and Tyler Simko)
 
 ## Datasets
 

@@ -52,6 +52,8 @@ To bring a practical lens to my research, I have served as the lead poll worker 
 
 - Mason Reece and Daniel M. Thompson. "[Partisan Elections and Partisan Voting: Evidence from Partisan Judicial Elections](files/partisan_judges.pdf)." *Under review.*
 
+- Mirya R. Holman, Rebecca Johnson, Mason Reece, and Tyler Simko. ["DistrictView: A Pipeline to Study School Board Deliberations."](files/districtview_datapaper.pdf) *Under review.*
+
 ## Works in Progress
 
 - Mason Reece. "Representation in Uncontested Elections"
@@ -61,8 +63,6 @@ To bring a practical lens to my research, I have served as the lead poll worker 
 - Mason Reece and Tyler Simko. "Policy Diffusion in Local Governments: The Case of Data Centers."
 
 - Mirya R. Holman, Andreas Küpfer, Mason Reece, and Tyler Simko. "Gender, Judicial Selection, and Emotional Engagement."
-
-- Mirya R. Holman, Rebecca Johnson, Mason Reece, and Tyler Simko. "DistrictView: A Pipeline to Study School Board Deliberations."
 
 ## Datasets
 
